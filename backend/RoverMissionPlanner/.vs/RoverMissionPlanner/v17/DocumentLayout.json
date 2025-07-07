@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Jona\\git\\rover-mission-planner\\backend\\RoverMissionPlanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{400441DF-50C2-4BBA-A55B-F64DADD88AF3}|RoverMissionPlaner.API\\RoverMissionPlanner.API.csproj|c:\\users\\jona\\git\\rover-mission-planner\\backend\\rovermissionplanner\\rovermissionplaner.api\\controllers\\rovertaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{400441DF-50C2-4BBA-A55B-F64DADD88AF3}|RoverMissionPlaner.API\\RoverMissionPlanner.API.csproj|solutionrelative:rovermissionplaner.api\\controllers\\rovertaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{400441DF-50C2-4BBA-A55B-F64DADD88AF3}|RoverMissionPlaner.API\\RoverMissionPlanner.API.csproj|c:\\users\\jona\\git\\rover-mission-planner\\backend\\rovermissionplanner\\rovermissionplaner.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400441DF-50C2-4BBA-A55B-F64DADD88AF3}|RoverMissionPlaner.API\\RoverMissionPlanner.API.csproj|solutionrelative:rovermissionplaner.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{400441DF-50C2-4BBA-A55B-F64DADD88AF3}|RoverMissionPlaner.API\\RoverMissionPlanner.API.csproj|c:\\users\\jona\\git\\rover-mission-planner\\backend\\rovermissionplanner\\rovermissionplaner.api\\swagger\\rovertaskexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400441DF-50C2-4BBA-A55B-F64DADD88AF3}|RoverMissionPlaner.API\\RoverMissionPlanner.API.csproj|solutionrelative:rovermissionplaner.api\\swagger\\rovertaskexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CDE98F-5A4E-4D5F-8A1B-8B14B447E22B}|RoverMissionPlanner.Application\\RoverMissionPlanner.Application.csproj|c:\\users\\jona\\git\\rover-mission-planner\\backend\\rovermissionplanner\\rovermissionplanner.application\\services\\irovertaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50CDE98F-5A4E-4D5F-8A1B-8B14B447E22B}|RoverMissionPlanner.Application\\RoverMissionPlanner.Application.csproj|solutionrelative:rovermissionplanner.application\\services\\irovertaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50CDE98F-5A4E-4D5F-8A1B-8B14B447E22B}|RoverMissionPlanner.Application\\RoverMissionPlanner.Application.csproj|c:\\users\\jona\\git\\rover-mission-planner\\backend\\rovermissionplanner\\rovermissionplanner.application\\services\\rovertaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50CDE98F-5A4E-4D5F-8A1B-8B14B447E22B}|RoverMissionPlanner.Application\\RoverMissionPlanner.Application.csproj|solutionrelative:rovermissionplanner.application\\services\\rovertaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{400441DF-50C2-4BBA-A55B-F64DADD88AF3}|RoverMissionPlaner.API\\RoverMissionPlanner.API.csproj|c:\\users\\jona\\git\\rover-mission-planner\\backend\\rovermissionplanner\\rovermissionplaner.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{400441DF-50C2-4BBA-A55B-F64DADD88AF3}|RoverMissionPlaner.API\\RoverMissionPlanner.API.csproj|solutionrelative:rovermissionplaner.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50CDE98F-5A4E-4D5F-8A1B-8B14B447E22B}|RoverMissionPlanner.Application\\RoverMissionPlanner.Application.csproj|c:\\users\\jona\\git\\rover-mission-planner\\backend\\rovermissionplanner\\rovermissionplanner.application\\services\\irovertaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50CDE98F-5A4E-4D5F-8A1B-8B14B447E22B}|RoverMissionPlanner.Application\\RoverMissionPlanner.Application.csproj|solutionrelative:rovermissionplanner.application\\services\\irovertaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{400441DF-50C2-4BBA-A55B-F64DADD88AF3}|RoverMissionPlaner.API\\RoverMissionPlanner.API.csproj|c:\\users\\jona\\git\\rover-mission-planner\\backend\\rovermissionplanner\\rovermissionplaner.api\\controllers\\rovertaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400441DF-50C2-4BBA-A55B-F64DADD88AF3}|RoverMissionPlaner.API\\RoverMissionPlanner.API.csproj|solutionrelative:rovermissionplaner.api\\controllers\\rovertaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,46 +34,59 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jona\\git\\rover-mission-planner\\backend\\RoverMissionPlanner\\RoverMissionPlaner.API\\Program.cs",
-              "RelativeDocumentMoniker": "RoverMissionPlaner.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Jona\\git\\rover-mission-planner\\backend\\RoverMissionPlanner\\RoverMissionPlaner.API\\Program.cs",
-              "RelativeToolTip": "RoverMissionPlaner.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "RoverTaskExample.cs",
+              "DocumentMoniker": "C:\\Users\\Jona\\git\\rover-mission-planner\\backend\\RoverMissionPlanner\\RoverMissionPlaner.API\\Swagger\\RoverTaskExample.cs",
+              "RelativeDocumentMoniker": "RoverMissionPlaner.API\\Swagger\\RoverTaskExample.cs",
+              "ToolTip": "C:\\Users\\Jona\\git\\rover-mission-planner\\backend\\RoverMissionPlanner\\RoverMissionPlaner.API\\Swagger\\RoverTaskExample.cs",
+              "RelativeToolTip": "RoverMissionPlaner.API\\Swagger\\RoverTaskExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T19:33:11.651Z",
+              "WhenOpened": "2025-07-07T20:18:40.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jona\\git\\rover-mission-planner\\backend\\RoverMissionPlanner\\RoverMissionPlaner.API\\Program.cs",
+              "RelativeDocumentMoniker": "RoverMissionPlaner.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Jona\\git\\rover-mission-planner\\backend\\RoverMissionPlanner\\RoverMissionPlaner.API\\Program.cs",
+              "RelativeToolTip": "RoverMissionPlaner.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T20:12:01.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "RoverTasksController.cs",
               "DocumentMoniker": "C:\\Users\\Jona\\git\\rover-mission-planner\\backend\\RoverMissionPlanner\\RoverMissionPlaner.API\\Controllers\\RoverTasksController.cs",
               "RelativeDocumentMoniker": "RoverMissionPlaner.API\\Controllers\\RoverTasksController.cs",
               "ToolTip": "C:\\Users\\Jona\\git\\rover-mission-planner\\backend\\RoverMissionPlanner\\RoverMissionPlaner.API\\Controllers\\RoverTasksController.cs",
               "RelativeToolTip": "RoverMissionPlaner.API\\Controllers\\RoverTasksController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-07T19:18:45.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RoverTaskService.cs",
               "DocumentMoniker": "C:\\Users\\Jona\\git\\rover-mission-planner\\backend\\RoverMissionPlanner\\RoverMissionPlanner.Application\\Services\\RoverTaskService.cs",
               "RelativeDocumentMoniker": "RoverMissionPlanner.Application\\Services\\RoverTaskService.cs",
               "ToolTip": "C:\\Users\\Jona\\git\\rover-mission-planner\\backend\\RoverMissionPlanner\\RoverMissionPlanner.Application\\Services\\RoverTaskService.cs",
               "RelativeToolTip": "RoverMissionPlanner.Application\\Services\\RoverTaskService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowBAAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-07T18:01:51.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IRoverTaskService.cs",
               "DocumentMoniker": "C:\\Users\\Jona\\git\\rover-mission-planner\\backend\\RoverMissionPlanner\\RoverMissionPlanner.Application\\Services\\IRoverTaskService.cs",
               "RelativeDocumentMoniker": "RoverMissionPlanner.Application\\Services\\IRoverTaskService.cs",
@@ -77,7 +94,8 @@
               "RelativeToolTip": "RoverMissionPlanner.Application\\Services\\IRoverTaskService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T17:47:47.373Z"
+              "WhenOpened": "2025-07-07T17:47:47.373Z",
+              "EditorCaption": ""
             }
           ]
         }

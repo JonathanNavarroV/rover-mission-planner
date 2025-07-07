@@ -106,45 +106,6 @@
           }
         }
       }
-    },
-    "/WeatherForecast": {
-      "get": {
-        "tags": [
-          "WeatherForecast"
-        ],
-        "operationId": "GetWeatherForecast",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
     }
   },
   "components": {
@@ -188,50 +149,34 @@
             "readOnly": true
           }
         },
-        "additionalProperties": false
+        "additionalProperties": false,
+        "example": {
+          "roverName": "Curiosity",
+          "taskType": "Drill",
+          "latitude": -4,5895,
+          "longitude": 137,4417,
+          "startsAt": "2025-07-07T10:00:00Z",
+          "durationMinutes": 60,
+          "status": "Planned"
+        }
       },
       "TaskStatus": {
         "enum": [
-          0,
-          1,
-          2,
-          3
+          "Planned",
+          "InProgress",
+          "Completed",
+          "Aborted"
         ],
-        "type": "integer",
-        "format": "int32"
+        "type": "string"
       },
       "TaskType": {
         "enum": [
-          0,
-          1,
-          2,
-          3
+          "Drill",
+          "Sample",
+          "Photo",
+          "Charge"
         ],
-        "type": "integer",
-        "format": "int32"
-      },
-      "WeatherForecast": {
-        "type": "object",
-        "properties": {
-          "date": {
-            "type": "string",
-            "format": "date"
-          },
-          "temperatureC": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          },
-          "summary": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
+        "type": "string"
       }
     }
   }

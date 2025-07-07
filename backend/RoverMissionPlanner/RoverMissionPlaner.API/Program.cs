@@ -1,4 +1,5 @@
 using RoverMissionPlanner.Application.Services;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,10 +8,19 @@ builder.Services.AddSingleton<IRoverTaskService, RoverTaskService>();
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        // Permite deserializar enums desde strings en JSON
+        options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+    });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    // Usar ejemplo en Swagger
+    options.SchemaFilter<RoverMissionPlanner.API.Swagger.RoverTaskExample>();
+});
 
 var app = builder.Build();
 
