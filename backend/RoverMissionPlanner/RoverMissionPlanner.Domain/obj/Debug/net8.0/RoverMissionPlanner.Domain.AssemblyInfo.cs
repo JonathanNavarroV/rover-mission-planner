@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoverMissionPlanner.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25ae32b2a242e834b3041e782ee3a330e9d4b57f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+524eac9729870a8f907634f626cd87c5d5ad4dd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoverMissionPlanner.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoverMissionPlanner.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

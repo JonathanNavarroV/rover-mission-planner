@@ -1,3 +1,6 @@
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using RoverMissionPlanner.API.Validators;
 using RoverMissionPlanner.Application.Services;
 using System.Text.Json.Serialization;
 
@@ -14,6 +17,14 @@ builder.Services.AddControllers()
         // Permite deserializar enums desde strings en JSON
         options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
     });
+
+// Habilitar la validación automatica en el pipeline
+builder.Services.AddFluentValidationAutoValidation();
+// Integración con validación del lado del cliente
+builder.Services.AddFluentValidationClientsideAdapters();
+// Registra todos los validadores de RoverTaskValidator
+builder.Services.AddValidatorsFromAssemblyContaining<RoverTaskValidator>();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>

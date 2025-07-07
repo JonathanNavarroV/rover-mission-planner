@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RoverMissionPlanner.Domain.Entities
+namespace RoverMissionPlanner.Domain.Enums
 {
     public enum TaskStatus
     {
