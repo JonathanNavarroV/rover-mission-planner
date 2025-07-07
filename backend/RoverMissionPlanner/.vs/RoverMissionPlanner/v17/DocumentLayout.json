@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "RoverMissionPlanner.Tests\\Application\\Services\\RoverTaskServiceTests.cs",
               "ToolTip": "C:\\Users\\Jona\\git\\rover-mission-planner\\backend\\RoverMissionPlanner\\RoverMissionPlanner.Tests\\Application\\Services\\RoverTaskServiceTests.cs",
               "RelativeToolTip": "RoverMissionPlanner.Tests\\Application\\Services\\RoverTaskServiceTests.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAA5wO4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwO4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-07T21:16:05.767Z",
               "EditorCaption": ""
@@ -111,8 +111,7 @@
               "RelativeToolTip": "RoverMissionPlanner.Application\\Services\\RoverTaskService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAgwBYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T18:01:51.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-07T18:01:51.311Z"
             },
             {
               "$type": "Document",
@@ -124,8 +123,7 @@
               "RelativeToolTip": "RoverMissionPlanner.Application\\Services\\IRoverTaskService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAkwBAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T17:47:47.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-07T17:47:47.373Z"
             }
           ]
         }
