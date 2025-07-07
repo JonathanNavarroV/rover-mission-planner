@@ -2,9 +2,7 @@ C:\Users\Jona\git\rover-mission-planner\backend\RoverMissionPlanner\RoverMission
 C:\Users\Jona\git\rover-mission-planner\backend\RoverMissionPlanner\RoverMissionPlanner.Application\bin\Debug\net8.0\RoverMissionPlanner.Application.dll
 C:\Users\Jona\git\rover-mission-planner\backend\RoverMissionPlanner\RoverMissionPlanner.Application\bin\Debug\net8.0\RoverMissionPlanner.Application.pdb
 C:\Users\Jona\git\rover-mission-planner\backend\RoverMissionPlanner\RoverMissionPlanner.Application\bin\Debug\net8.0\RoverMissionPlanner.Domain.dll
-C:\Users\Jona\git\rover-mission-planner\backend\RoverMissionPlanner\RoverMissionPlanner.Application\bin\Debug\net8.0\RoverMissionPlanner.Infrastructure.dll
 C:\Users\Jona\git\rover-mission-planner\backend\RoverMissionPlanner\RoverMissionPlanner.Application\bin\Debug\net8.0\RoverMissionPlanner.Domain.pdb
-C:\Users\Jona\git\rover-mission-planner\backend\RoverMissionPlanner\RoverMissionPlanner.Application\bin\Debug\net8.0\RoverMissionPlanner.Infrastructure.pdb
 C:\Users\Jona\git\rover-mission-planner\backend\RoverMissionPlanner\RoverMissionPlanner.Application\obj\Debug\net8.0\RoverMissionPlanner.Application.csproj.AssemblyReference.cache
 C:\Users\Jona\git\rover-mission-planner\backend\RoverMissionPlanner\RoverMissionPlanner.Application\obj\Debug\net8.0\RoverMissionPlanner.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Jona\git\rover-mission-planner\backend\RoverMissionPlanner\RoverMissionPlanner.Application\obj\Debug\net8.0\RoverMissionPlanner.Application.AssemblyInfoInputs.cache

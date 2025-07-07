@@ -35,6 +35,11 @@ builder.Services.AddSwaggerGen(options =>
 
 var app = builder.Build();
 
+// Se agrega el middleware para manejo global de excepciones
+app.UseMiddleware<RoverMissionPlanner.API.Middleware.ExceptionMiddleware>();
+
+app.UseAuthorization();
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

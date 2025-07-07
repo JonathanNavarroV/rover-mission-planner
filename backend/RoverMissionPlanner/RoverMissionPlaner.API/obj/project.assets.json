@@ -156,8 +156,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "RoverMissionPlanner.Domain": "1.0.0",
-          "RoverMissionPlanner.Infrastructure": "1.0.0"
+          "RoverMissionPlanner.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/RoverMissionPlanner.Application.dll": {}
@@ -174,16 +173,6 @@
         },
         "runtime": {
           "bin/placeholder/RoverMissionPlanner.Domain.dll": {}
-        }
-      },
-      "RoverMissionPlanner.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/RoverMissionPlanner.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/RoverMissionPlanner.Infrastructure.dll": {}
         }
       }
     }
@@ -620,11 +609,6 @@
       "type": "project",
       "path": "../RoverMissionPlanner.Domain/RoverMissionPlanner.Domain.csproj",
       "msbuildProject": "../RoverMissionPlanner.Domain/RoverMissionPlanner.Domain.csproj"
-    },
-    "RoverMissionPlanner.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../RoverMissionPlanner.Infrastructure/RoverMissionPlanner.Infrastructure.csproj",
-      "msbuildProject": "../RoverMissionPlanner.Infrastructure/RoverMissionPlanner.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
