@@ -20,7 +20,6 @@ namespace RoverMissionPlanner.API.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateTask(Guid roverId, [FromBody] RoverTask task)
         {
-            throw new Exception("Error forzado para probar middleware");
             task.Id = Guid.NewGuid();
 
             // Se intenta crear usando el servicio
