@@ -1,0 +1,49 @@
+name: Backend CI
+
+on:
+  push:
+    branches: [ develop ]
+  pull_request:
+    branches: [ develop ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: backend/RoverMissionPlanner
+
+    steps:
+      # 1. Clonar el repo
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2. Instalar .NET 8
+      - name: Setup .NET 8
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+
+      # 3. Restaurar dependencias
+      - name: Restore dependencies
+        run: dotnet restore
+
+      # 4. Compilar
+      - name: Build
+        run: dotnet build --no-restore --configuration Release
+
+      # 5. Ejecutar tests + cobertura
+      - name: Test with coverage
+        run: |
+          dotnet test --no-build --configuration Release \
+            /p:CollectCoverage=true \
+            /p:CoverletOutputFormat=cobertura \
+            /p:CoverletOutput=coverage/coverage.cobertura.xml
+
+      # 6. Subir resultados
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coverage/coverage.cobertura.xml

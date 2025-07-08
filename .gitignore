@@ -1,0 +1,20 @@
+# Archivos de compilación
+**/bin/
+**/obj/
+
+# Resultados de pruebas
+**/TestResults/
+
+# Archivos de cobertura y logs
+**/coverage/
+**/*.coverage
+**/*.coveragejson
+**/*.lcov
+
+# Archivos de usuario (configuraciones locales)
+**/*.user
+**/*.suo
+**/*.userprefs
+
+# Archivos de VS
+.vs/

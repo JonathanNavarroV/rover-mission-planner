@@ -1,0 +1,12 @@
+<p-timeline [value]="tasks" layout="horizontal" styleClass="custom-timeline">
+  <ng-template pTemplate="content" let-task>
+    <div>
+      <b>{{ task.taskType }}</b
+      ><br />
+      {{ task.startsAt | date : "shortTime" : "UTC" }} ({{
+        task.durationMinutes
+      }}
+      mins)
+    </div>
+  </ng-template>
+</p-timeline>
