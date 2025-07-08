@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoverMissionPlanner.API", "RoverMissionPlaner.API\RoverMissionPlanner.API.csproj", "{400441DF-50C2-4BBA-A55B-F64DADD88AF3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoverMissionPlanner.API", "RoverMissionPlanner.API\RoverMissionPlanner.API.csproj", "{400441DF-50C2-4BBA-A55B-F64DADD88AF3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoverMissionPlanner.Domain", "RoverMissionPlanner.Domain\RoverMissionPlanner.Domain.csproj", "{ADA81069-6560-4A8C-A89B-EB435EE5F6ED}"
 EndProject

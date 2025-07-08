@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("RoverMissionPlanner.Tests")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("RoverMissionPlanner.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40c6e215a636320bc0030a071bdf13f82c5de69a")]
-[assembly: System.Reflection.AssemblyProductAttribute("RoverMissionPlanner.Tests")]
-[assembly: System.Reflection.AssemblyTitleAttribute("RoverMissionPlanner.Tests")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e645a677faa0bb757758671c6f0a913344159ab")]
+[assembly: System.Reflection.AssemblyProductAttribute("RoverMissionPlanner.API")]
+[assembly: System.Reflection.AssemblyTitleAttribute("RoverMissionPlanner.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

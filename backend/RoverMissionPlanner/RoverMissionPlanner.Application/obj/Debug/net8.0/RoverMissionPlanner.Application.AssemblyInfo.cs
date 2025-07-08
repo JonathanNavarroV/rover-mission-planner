@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoverMissionPlanner.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ccaadea85d08fc750f1645b04607b6c7c9c16a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40c6e215a636320bc0030a071bdf13f82c5de69a")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoverMissionPlanner.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoverMissionPlanner.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
