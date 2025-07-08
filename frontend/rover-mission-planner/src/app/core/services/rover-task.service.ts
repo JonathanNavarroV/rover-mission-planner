@@ -8,7 +8,7 @@ import { RoverTask } from '../models/rover-task.model';
 })
 export class RoverTaskService {
   // URL Base de la API
-  private baseUrl = 'https://localhost:7190/rovers';
+  private baseUrl = 'http://localhost:5225/rovers';
 
   private readonly http = inject(HttpClient);
 
