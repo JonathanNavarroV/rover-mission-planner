@@ -33,7 +33,7 @@ rover-mission-planner/
 
 ### ▶️ Backend (.NET 8)
 
-Desde la carpeta `backend`:
+Desde la carpeta `backend/RoverMissionPlanner`:
 
 ```bash
 # 1. Restaurar paquetes y compilar
@@ -62,7 +62,7 @@ docker run -p 5225:5225 --name rover-api-container rover-api
 
 ### 🖼️ Frontend (Angular 18)
 
-Desde la carpeta frontend:
+Desde la carpeta `frontend/rover-mission-planner`:
 
 ```bash
 # 1. Instalar dependencias
